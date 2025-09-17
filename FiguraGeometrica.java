@@ -10,6 +10,7 @@ public abstract class FiguraGeometrica implements CalculosGeometricos{
     public FiguraGeometrica(String Cor){
         totalFiguras++;
         this.id = totalFiguras;
+        this.cor = Cor;
     }
 
     public String getCor(){
