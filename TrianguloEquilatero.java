@@ -17,7 +17,7 @@ public class TrianguloEquilatero extends FiguraGeometrica{
     }
 
     public double calcularArea(){
-        return (Math.sqrt(3/4)) * (lado*lado);
+        return (Math.sqrt(3.0)/4.0) * (lado*lado);
     }
 
     public double calcularPerimetro(){
